@@ -1,5 +1,5 @@
 {
-    "name": "ongr/elasticsearch-dsl",
+    "name": "tandrezone/elasticsearch-dsl",
     "description": "Elasticsearch DSL library",
     "type": "library",
     "homepage": "http://ongr.io",
@@ -11,12 +11,12 @@
         }
     ],
     "require": {
-        "php": "^7.0",
+        "php": "*",
         "symfony/serializer": "^3.0|^4.0",
         "paragonie/random_compat": "*"
     },
     "require-dev": {
-        "elasticsearch/elasticsearch": "^7.0",
+        "elasticsearch/elasticsearch": "*",
         "phpunit/phpunit": "~6.0",
         "squizlabs/php_codesniffer": "^3.0"
     },
